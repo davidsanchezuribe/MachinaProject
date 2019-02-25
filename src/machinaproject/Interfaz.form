@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="closeButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+              <Component id="cleanButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="descriptionTitleLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="numMantisaLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="numExponenteLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="overflowLabel" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="epsilonLabel" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="underflowLabel" alignment="0" pref="290" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="expMChangeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="manMChangeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="numBitsExpoField" pref="27" max="32767" attributes="0"/>
+                                          <Component id="numBitsMantField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="changeMachinaButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="realNumberTitleLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MachineNumberTitleLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="real2MachineButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                      <Component id="real2MachineOutputLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="machine2RealButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                      <Component id="machine2RealOutputLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="machine2RealField" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <Component id="real2MachineField" min="-2" pref="286" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                      <Component id="outputTitleLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="329" max="-2" attributes="0"/>
+                      <Component id="projectTitleLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="104" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="projectTitleLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="descriptionTitleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numExponenteLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="numMantisaLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="overflowLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="epsilonLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="underflowLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="expMChangeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="manMChangeLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="numBitsExpoField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="numBitsMantField" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="real2MachineField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="realNumberTitleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="real2MachineButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="real2MachineOutputLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="machine2RealField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MachineNumberTitleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="machine2RealButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="machine2RealOutputLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cleanButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="closeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="changeMachinaButton" min="-2" pref="63" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="outputTitleLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="projectTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xed;tulo del Proyecto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="descriptionTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descripci&#xf3;n de la m&#xe1;quina actual:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numExponenteLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiene x bits para el exponente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numMantisaLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiene x bits para la mantisa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="overflowLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Overflow: x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="epsilonLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Epsilon: x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="underflowLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Underflow: x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="numBitsExpoField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Ingrese un n&#xfa;mero entero entre 1 y 7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="expMChangeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de bits para el exponente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="manMChangeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de bits para la mantisa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="numBitsMantField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Ingrese un n&#xfa;mero entero entre 1 y 23"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[2, 2147483647]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="changeMachinaButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cambiar de m&#xe1;quina"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="changeMachinaButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="real2MachineField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="outputTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Resultado:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="real2MachineButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cambiar n&#xfa;mero real a n&#xfa;mero m&#xe1;quina"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="real2MachineButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="real2MachineOutputLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="realNumberTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero real:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MachineNumberTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero m&#xe1;quina:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="machine2RealField">
+    </Component>
+    <Component class="javax.swing.JButton" name="machine2RealButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cambiar n&#xfa;mero m&#xe1;quina a n&#xfa;mero real"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="machine2RealButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="machine2RealOutputLabel">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cleanButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cleanButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="closeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cerrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
